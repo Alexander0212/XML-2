@@ -22,6 +22,8 @@ namespace XML_задание_2
         {
 
         }
+
+        //Comment
         private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
         {
             textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
